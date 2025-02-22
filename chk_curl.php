@@ -7,6 +7,12 @@ if (!defined('CURLOPT_CONNECTTIMEOUT')) {
 
 echo "<br>";
 
+
+echo "curl version " . curl_version()['version'];
+
+
+echo "<br>";
+
 if (defined('CURLOPT_CONNECTTIMEOUT')) {
     echo 'CURLOPT_CONNECTTIMEOUT is defined';
 } else {
